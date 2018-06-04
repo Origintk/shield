@@ -9,10 +9,6 @@ local animName = "0"
 local prop = "prop_ballistic_shield"
 local pistol = GetHashKey("WEAPON_PISTOL")
 
-RegisterNetEvent("shield", function()
-	TriggerEvent("shield")
-end,false)
-
 RegisterNetEvent('shield')
 AddEventHandler('shield', function()
     if shieldActive then
